@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form_exercise.html">
+</head>
+<body>
+
+    <form action="" method="post">
+<!--if you have any sensitive information use the POST method, GET shows it on the URL-->
+        <input type="text" name="name" placeholder="name">
+        <input type="text" name="lastname" placeholder="last name"> <br>
+        <input type="text" name="email" placeholder="email">
+        <input type="password" name="password" placeholder="password"> <br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other <br>
+        <textarea name="message" placeholder="write a message" cols="30" rows="10"></textarea> <br>
+        <select name="car" id="">
+            <option value="none">None</option>
+            <option value="car1">BMW</option>
+            <option value="car2">Mercedes</option>
+            <option value="car3">Opel</option>
+        </select> <br>
+        <button type="submit" name="submit">Submit</button>
+<!--        <input type="submit" name="submit"> I COULD USE INPUT BUT USE BUTTON IS BETTER-->
+    </form>
+
+</body>
+</html>
